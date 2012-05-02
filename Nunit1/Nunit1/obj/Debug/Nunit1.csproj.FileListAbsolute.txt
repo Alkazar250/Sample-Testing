@@ -1,0 +1,9 @@
+c:\documents and settings\alkazar\мои документы\visual studio 2010\Projects\Nunit1\Nunit1\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\alkazar\мои документы\visual studio 2010\Projects\Nunit1\Nunit1\bin\Debug\Nunit1.dll
+c:\documents and settings\alkazar\мои документы\visual studio 2010\Projects\Nunit1\Nunit1\bin\Debug\Nunit1.pdb
+c:\documents and settings\alkazar\мои документы\visual studio 2010\Projects\Nunit1\Nunit1\bin\Debug\nunit.framework.dll
+c:\documents and settings\alkazar\мои документы\visual studio 2010\Projects\Nunit1\Nunit1\bin\Debug\SwapArray.dll
+c:\documents and settings\alkazar\мои документы\visual studio 2010\Projects\Nunit1\Nunit1\bin\Debug\nunit.framework.xml
+c:\documents and settings\alkazar\мои документы\visual studio 2010\Projects\Nunit1\Nunit1\bin\Debug\SwapArray.pdb
+c:\documents and settings\alkazar\мои документы\visual studio 2010\Projects\Nunit1\Nunit1\obj\Debug\Nunit1.dll
+c:\documents and settings\alkazar\мои документы\visual studio 2010\Projects\Nunit1\Nunit1\obj\Debug\Nunit1.pdb

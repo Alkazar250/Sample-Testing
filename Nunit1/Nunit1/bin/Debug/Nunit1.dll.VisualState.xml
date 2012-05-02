@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1017]C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\Nunit1\Nunit1\bin\Debug\Nunit1.dll</TopNode>
+  <SelectedNode>[0-1017]C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\Nunit1\Nunit1\bin\Debug\Nunit1.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1017]C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\Nunit1\Nunit1\bin\Debug\Nunit1.dll" Expanded="true" />
+    <Node UniqueName="[0-1018]Nunit1" Expanded="true" />
+    <Node UniqueName="[0-1003]Nunit1.DataIntroduction" Expanded="true" />
+    <Node UniqueName="[0-1000]Nunit1.LogicControl" Expanded="true" />
+  </Nodes>
+</VisualState>
