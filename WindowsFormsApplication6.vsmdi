@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestList name="Black-Box Tests" id="67133f6e-456a-4377-9dcc-3ef16291c4ef" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+  <TestList name="Списки тестов" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <RunConfiguration id="fd7e50c8-d520-47a4-a3a6-fc90e6eb1fbd" name="Локальные" storage="local.testsettings" type="Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration, Microsoft.VisualStudio.QualityTools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestList>
+</TestLists>

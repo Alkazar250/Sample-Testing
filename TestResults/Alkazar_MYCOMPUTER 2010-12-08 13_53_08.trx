@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="61d43dd6-d0a8-4cf3-8f8e-fe069a2d770d" name="Alkazar@MYCOMPUTER 2010-12-08 13:53:08" runUser="MYCOMPUTER\Alkazar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="fd7e50c8-d520-47a4-a3a6-fc90e6eb1fbd">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alkazar_MYCOMPUTER 2010-12-08 13_53_08" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-08T13:53:08.2656250+02:00" queuing="2010-12-08T13:53:08.2968750+02:00" start="2010-12-08T13:53:08.7187500+02:00" finish="2010-12-08T13:53:38.1562500+02:00" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\documents and settings\alkazar\мои документы\visual studio 2010\projects\tvpp\testproject1\bin\debug\testproject1.dll" id="c724dcba-737e-59be-d4b3-3aa12e47e71d">
+      <Execution id="07ea2b8f-8eb0-4e5e-a953-d8bbdbbdd6b8" />
+      <TestMethod codeBase="C:/Documents and Settings/Alkazar/Мои документы/Visual Studio 2010/Projects/TVPP/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CodedUITest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" executionId="07ea2b8f-8eb0-4e5e-a953-d8bbdbbdd6b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="07ea2b8f-8eb0-4e5e-a953-d8bbdbbdd6b8" testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" testName="CodedUITestMethod1" computerName="MYCOMPUTER" duration="00:00:22.3437500" startTime="2010-12-08T13:53:08.8750000+02:00" endTime="2010-12-08T13:53:31.2187500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07ea2b8f-8eb0-4e5e-a953-d8bbdbbdd6b8">
+      <Output>
+        <DebugTrace>W, 3092, 12, 2010/12/08, 13:53:15.296, 177942691574406, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:15.312, 177942720346586, QTAgent32.exe, &lt;a class=failure&gt;Playback - {1} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:15.531, 177943070450456, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF1704.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:15.531, 177943071118346, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:15.531, 177943073391186, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 1922 ms. Expected it to take maximum 500 ms.
+W, 3092, 12, 2010/12/08, 13:53:15.781, 177943499858566, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:15.781, 177943500812576, QTAgent32.exe, &lt;a class=failure&gt;Playback - {2} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:15.937, 177943750009346, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF1705.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:15.937, 177943750670806, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:16.343, 177944433904786, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:16.343, 177944434544316, QTAgent32.exe, &lt;a class=failure&gt;Playback - {3} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:16.531, 177944732536826, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF1706.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:16.531, 177944733137066, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:16.531, 177944734152806, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 588 ms. Expected it to take maximum 500 ms.
+E, 3092, 12, 2010/12/08, 13:53:16.531, 177944741200546, QTAgent32.exe, Exception: System.Runtime.InteropServices.COMException
+	Message: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+	Stack Trace:    в Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+	BaseExceptionMessage: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+
+W, 3092, 12, 2010/12/08, 13:53:17.390, 177946178768926, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:17.390, 177946179488836, QTAgent32.exe, &lt;a class=failure&gt;Playback - {4} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:17.546, 177946434406516, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF1707.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:17.546, 177946435023856, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:17.546, 177946436024476, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 555 ms. Expected it to take maximum 500 ms.
+W, 3092, 12, 2010/12/08, 13:53:17.593, 177946521302966, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:17.593, 177946522018076, QTAgent32.exe, &lt;a class=failure&gt;Playback - {5} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:17.750, 177946782388316, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF1708.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:17.750, 177946783035936, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:18.171, 177947472287596, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:18.171, 177947472983206, QTAgent32.exe, &lt;a class=failure&gt;Playback - {6} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:18.312, 177947723481856, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF1709.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:18.312, 177947724140696, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:18.328, 177947725144246, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 564 ms. Expected it to take maximum 500 ms.
+E, 3092, 12, 2010/12/08, 13:53:18.328, 177947726013236, QTAgent32.exe, Exception: System.Runtime.InteropServices.COMException
+	Message: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+	Stack Trace:    в Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+	BaseExceptionMessage: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+
+W, 3092, 12, 2010/12/08, 13:53:18.718, 177948386321716, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:18.718, 177948386968436, QTAgent32.exe, &lt;a class=failure&gt;Playback - {7} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:18.875, 177948637871746, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF170A.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:18.875, 177948638442926, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:18.875, 177948639486976, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 546 ms. Expected it to take maximum 500 ms.
+W, 3092, 12, 2010/12/08, 13:53:19.375, 177949478579436, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:19.375, 177949479229646, QTAgent32.exe, &lt;a class=failure&gt;Playback - {8} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:19.562, 177949793888796, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF170B.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:19.562, 177949794515616, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:19.562, 177949795518556, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 692 ms. Expected it to take maximum 500 ms.
+W, 3092, 12, 2010/12/08, 13:53:20.171, 177950810135546, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:21.437, 177952928250056, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:21.921, 177953737872626, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:22.421, 177954559713886, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:22.796, 177955174242446, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:22.796, 177955174882446, QTAgent32.exe, &lt;a class=failure&gt;Playback - {9} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:22.968, 177955460976296, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF170C.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:22.968, 177955461595516, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:22.968, 177955462579976, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 3399 ms. Expected it to take maximum 500 ms.
+E, 3092, 12, 2010/12/08, 13:53:22.968, 177955463477276, QTAgent32.exe, Exception: System.Runtime.InteropServices.COMException
+	Message: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+	Stack Trace:    в Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+	BaseExceptionMessage: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+
+W, 3092, 12, 2010/12/08, 13:53:23.359, 177956132047536, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:23.359, 177956133081536, QTAgent32.exe, &lt;a class=failure&gt;Playback - {10} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:23.515, 177956385493206, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF170D.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:23.515, 177956386198426, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:23.515, 177956387235606, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 553 ms. Expected it to take maximum 500 ms.
+W, 3092, 12, 2010/12/08, 13:53:24.031, 177957238210366, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:24.031, 177957238922646, QTAgent32.exe, &lt;a class=failure&gt;Playback - {11} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:24.187, 177957491753256, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF170E.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:24.187, 177957492449636, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:24.187, 177957493461456, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 662 ms. Expected it to take maximum 500 ms.
+W, 3092, 12, 2010/12/08, 13:53:24.671, 177958304584036, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:25.156, 177959126374556, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:25.656, 177959949845566, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:26.156, 177960792864796, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:26.671, 177961637563806, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:27.156, 177962460996646, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:27.546, 177963091973536, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:27.546, 177963092716076, QTAgent32.exe, &lt;a class=failure&gt;Playback - {12} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='C:\\Documents and Settings\\Alkazar\\Мои документы\\Visual Studio 2010\\Projects\\TVPP\\WindowsFormsApplication6\\bin\\Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:27.703, 177963353282136, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF170F.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:27.703, 177963353954496, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:27.703, 177963354950336, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 3516 ms. Expected it to take maximum 500 ms.
+E, 3092, 12, 2010/12/08, 13:53:27.703, 177963355890426, QTAgent32.exe, Exception: System.Runtime.InteropServices.COMException
+	Message: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+	Stack Trace:    в Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+	BaseExceptionMessage: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+
+W, 3092, 12, 2010/12/08, 13:53:28.109, 177964047855606, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:28.109, 177964048520636, QTAgent32.exe, &lt;a class=failure&gt;Playback - {13} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:28.265, 177964302242646, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF1710.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:28.265, 177964302880806, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:28.265, 177964303905866, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 567 ms. Expected it to take maximum 500 ms.
+W, 3092, 12, 2010/12/08, 13:53:28.765, 177965140515846, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 12, 2010/12/08, 13:53:28.765, 177965141186956, QTAgent32.exe, &lt;a class=failure&gt;Playback - {14} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 12, 2010/12/08, 13:53:28.921, 177965394297366, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF1711.png
+\0
+W, 3092, 12, 2010/12/08, 13:53:28.921, 177965394738736, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 12, 2010/12/08, 13:53:28.921, 177965395432196, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 654 ms. Expected it to take maximum 500 ms.
+W, 3092, 12, 2010/12/08, 13:53:29.421, 177966223612596, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:29.953, 177967114036826, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 3092, 12, 2010/12/08, 13:53:30.546, 177968093441706, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Тестовый запуск прерван пользователем.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

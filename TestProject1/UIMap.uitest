@@ -1,0 +1,700 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="e91c46b5-b04f-496f-93c8-3df89929ce68" AssemblyVersion="10.0.30319.1" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="8.0.6001.18702" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" Value="no" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="chrome.exe" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="0" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows XP Home Edition" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 5.1.2600 Service Pack 3" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="True" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="False" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1049" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1049" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1024" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="600" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" WarningLevel="1" />
+      <Setting Name="UACEnabled" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" WarningLevel="1" />
+      <Setting Name="WindowsAccessibilityAPIVersion" Value="2.0" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <MouseAction UIObjectName="UIMap.UIDebugWindow.UIFolderViewWindow.UISwapArrayexeListItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="45" Y="24" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>DoubleClick</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UISwapArrayWindow.UITextBox1Window.UITextBox1Edit">
+      <ParameterName />
+      <Value Encoded="false">12345678</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UISwapArrayWindow.UITextBox1Window.UITextBox1Edit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{Enter}</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UISwapArrayWindow.UITextBox2Window.UITextBox2Edit">
+      <ParameterName />
+      <Value Encoded="false">4</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UISwapArrayWindow.UITextBox2Window.UITextBox2Edit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{Enter}</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UISwapArrayWindow.UITextBox3Window.UITextBox3Edit">
+      <ParameterName />
+      <Value Encoded="false">1</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UISwapArrayWindow.UITextBox3Window.UITextBox3Edit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{Enter}</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UISwapArrayWindow.UITextBox4Window.UITextBox4Edit">
+      <ParameterName />
+      <Value Encoded="false">5</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UISwapArrayWindow.UITextBox4Window.UITextBox4Edit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{Enter}</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMap.UISwapArrayWindow.UIОбменятьWindow.UIОбменятьButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="25" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UISwapArrayWindow.UISwapArrayTitleBar.UIЗакрытьButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="11" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="RecordedMethod1">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIForm1Window.UITextBox5Window.UITextBox5Edit">
+      <ParameterName />
+      <PropertyName>Text</PropertyName>
+      <ExpectedValue>56781234</ExpectedValue>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction MarkerInformation="AssertMethod1">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UILAB_TVPPWindow.UILAB_TVPPTitleBar.UIЗакрытьButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="16" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction MarkerInformation="RecordedMethod2">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UIForm1Window" FriendlyName="Form1" SpecialControlType="None" SessionId="5244278">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Form1</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Form1</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UITextBox1Window" FriendlyName="textBox1" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Form1</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">textBox1</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBox1Edit" FriendlyName="textBox1" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Form1</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UITextBox2Window" FriendlyName="textBox2" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Form1</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">textBox2</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBox2Edit" FriendlyName="textBox2" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Form1</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UITextBox3Window" FriendlyName="textBox3" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Form1</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">textBox3</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBox3Edit" FriendlyName="textBox3" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Form1</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UITextBox4Window" FriendlyName="textBox4" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Form1</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">textBox4</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBox4Edit" FriendlyName="textBox4" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Form1</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIОбменятьWindow" FriendlyName="Обменять" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Form1</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">button1</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIОбменятьButton" FriendlyName="Обменять" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Form1</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Обменять</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UITextBox5Window" FriendlyName="textBox5" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Form1</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">textBox5</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBox5Edit" FriendlyName="textBox5" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Form1</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="TitleBar" Id="UIForm1TitleBar" FriendlyName="Form1" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Form1</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlType">TitleBar</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIЗакрытьButton" FriendlyName="Закрыть" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Form1</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Закрыть</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIDebugWindow" FriendlyName="Debug" SpecialControlType="None" SessionId="7602360">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Debug</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Debug</PropertyCondition>
+            <PropertyCondition Name="ClassName">CabinetWClass</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIFolderViewWindow" FriendlyName="FolderView" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Debug</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">1</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="ListItem" Id="UIWindowsFormsApplicatListItem" FriendlyName="WindowsFormsApplication6.exe" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Debug</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">WindowsFormsApplication6.exe</PropertyCondition>
+                    <PropertyCondition Name="ControlType">ListItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="ListItem" Id="UISwapArrayexeListItem" FriendlyName="Swap Array.exe" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Debug</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Swap Array.exe</PropertyCondition>
+                    <PropertyCondition Name="ControlType">ListItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UISwapArrayWindow" FriendlyName="Swap Array" SpecialControlType="None" SessionId="2491746">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Swap Array</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Swap Array</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UITextBox1Window" FriendlyName="textBox1" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Swap Array</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">textBox1</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBox1Edit" FriendlyName="textBox1" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Swap Array</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UITextBox2Window" FriendlyName="textBox2" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Swap Array</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">textBox2</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBox2Edit" FriendlyName="textBox2" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Swap Array</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UITextBox3Window" FriendlyName="textBox3" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Swap Array</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">textBox3</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBox3Edit" FriendlyName="textBox3" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Swap Array</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UITextBox4Window" FriendlyName="textBox4" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Swap Array</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">textBox4</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITextBox4Edit" FriendlyName="textBox4" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Swap Array</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIОбменятьWindow" FriendlyName="Обменять" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Swap Array</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">button1</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIОбменятьButton" FriendlyName="Обменять" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Swap Array</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Обменять</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="TitleBar" Id="UISwapArrayTitleBar" FriendlyName="Swap Array" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Swap Array</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlType">TitleBar</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIЗакрытьButton" FriendlyName="Закрыть" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Swap Array</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Закрыть</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UILAB_TVPPWindow" FriendlyName="LAB_TVPP" SpecialControlType="None" SessionId="5112226">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>LAB_TVPP</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">LAB_TVPP</PropertyCondition>
+            <PropertyCondition Name="ClassName">CabinetWClass</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="TitleBar" Id="UILAB_TVPPTitleBar" FriendlyName="LAB_TVPP" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>LAB_TVPP</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlType">TitleBar</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIЗакрытьButton" FriendlyName="Закрыть" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>LAB_TVPP</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Закрыть</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

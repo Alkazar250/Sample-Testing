@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="50414d31-9b13-493a-82b1-3ef1562dc890" name="Alkazar@MYCOMPUTER 2010-12-08 13:15:50" runUser="MYCOMPUTER\Alkazar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="fd7e50c8-d520-47a4-a3a6-fc90e6eb1fbd">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment userDeploymentRoot="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\TVPP\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Alkazar_MYCOMPUTER 2010-12-08 13_15_50" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-08T13:15:50.7187500+02:00" queuing="2010-12-08T13:15:50.7656250+02:00" start="2010-12-08T13:15:50.7968750+02:00" finish="2010-12-08T13:16:03.2500000+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\documents and settings\alkazar\мои документы\visual studio 2010\projects\tvpp\testproject1\bin\debug\testproject1.dll" id="c724dcba-737e-59be-d4b3-3aa12e47e71d">
+      <Execution id="844b6832-9c68-4fd3-a9b5-13f45d7d1895" />
+      <TestMethod codeBase="C:/Documents and Settings/Alkazar/Мои документы/Visual Studio 2010/Projects/TVPP/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CodedUITest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" executionId="844b6832-9c68-4fd3-a9b5-13f45d7d1895" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="844b6832-9c68-4fd3-a9b5-13f45d7d1895" testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" testName="CodedUITestMethod1" computerName="MYCOMPUTER" duration="00:00:10.8479231" startTime="2010-12-08T13:15:50.8125000+02:00" endTime="2010-12-08T13:16:03.0000000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="844b6832-9c68-4fd3-a9b5-13f45d7d1895">
+      <Output>
+        <DebugTrace>W, 3092, 19, 2010/12/08, 13:15:53.687, 174207076708236, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass'
+\0
+E, 3092, 19, 2010/12/08, 13:15:53.687, 174207080947166, QTAgent32.exe, &lt;a class=failure&gt;Playback - {1} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Debug' &amp;&amp; ClassName='CabinetWClass') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 3092, 19, 2010/12/08, 13:15:53.843, 174207329626376, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF16F7.png
+\0
+W, 3092, 19, 2010/12/08, 13:15:53.843, 174207330272846, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 3092, 19, 2010/12/08, 13:15:55.390, 174209907328596, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] DoubleClick - "[MSAA]ControlType='ListItem' &amp;&amp; Name='WindowsFormsApplication6.exe'"  &lt; Mouse cursor location (710, 163) &gt;
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:15:56.687, 174212083001516, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 1198 ms. Expected it to take maximum 500 ms.
+W, 3092, 19, 2010/12/08, 13:15:57.015, 174212615559866, QTAgent32.exe, Value in en-US resource 'Развернуть' does not match the defaultvalue 'Maximize'
+W, 3092, 19, 2010/12/08, 13:15:57.015, 174212616880406, QTAgent32.exe, Value in en-US resource 'Восстановить' does not match the defaultvalue 'Restore'
+E, 3092, 19, 2010/12/08, 13:15:57.078, 174212729074456, QTAgent32.exe, LoadIEStrings() - Could not find ie resource assembly in ru-RU or ru-RU
+E, 3092, 19, 2010/12/08, 13:15:57.078, 174212729852246, QTAgent32.exe, LoadIEStrings() - Could not find user32 resource assembly in ru-RU or ru-RU
+W, 3092, 19, 2010/12/08, 13:15:57.703, 174213771034226, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] SetValueAsEditBox "12345678" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:15:58.046, 174214331632926, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:15:58.734, 174215481503536, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] SetValueAsEditBox "4" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:15:59.046, 174215999418166, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:15:59.750, 174217188606116, QTAgent32.exe, &lt;a class=success&gt;Playback - {7} [SUCCESS] SetValueAsEditBox "1" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:16:00.062, 174217692610716, QTAgent32.exe, &lt;a class=success&gt;Playback - {8} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:16:00.843, 174219009618586, QTAgent32.exe, &lt;a class=success&gt;Playback - {9} [SUCCESS] SetValueAsEditBox "5" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:16:01.171, 174219546710806, QTAgent32.exe, &lt;a class=success&gt;Playback - {10} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:16:01.812, 174220609925936, QTAgent32.exe, &lt;a class=success&gt;Playback - {11} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Обменять'"
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:16:02.765, 174222211026346, QTAgent32.exe, &lt;a class=success&gt;Playback - {12} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Закрыть'"
+\0&lt;/a&gt;
+W, 3092, 19, 2010/12/08, 13:16:02.921, 174222465147436, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 3092, 19, 2010/12/08, 13:16:02.921, 174222465444696, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

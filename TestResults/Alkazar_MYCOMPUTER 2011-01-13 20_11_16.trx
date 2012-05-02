@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b44ff074-ad07-4289-9717-1152a450d0b5" name="Alkazar@MYCOMPUTER 2011-01-13 20:11:16" runUser="MYCOMPUTER\Alkazar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="fd7e50c8-d520-47a4-a3a6-fc90e6eb1fbd">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment userDeploymentRoot="C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\TVPP\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Alkazar_MYCOMPUTER 2011-01-13 20_11_16" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-01-13T20:11:16.5625000+02:00" queuing="2011-01-13T20:11:16.5781250+02:00" start="2011-01-13T20:11:16.6093750+02:00" finish="2011-01-13T20:11:44.8437500+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\documents and settings\alkazar\мои документы\visual studio 2010\projects\tvpp\testproject1\bin\debug\testproject1.dll" id="c724dcba-737e-59be-d4b3-3aa12e47e71d">
+      <Execution id="bc4aa89f-cc1b-42a8-91ad-17c3101a3dc7" />
+      <TestMethod codeBase="C:/Documents and Settings/Alkazar/Мои документы/Visual Studio 2010/Projects/TVPP/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CodedUITest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" executionId="bc4aa89f-cc1b-42a8-91ad-17c3101a3dc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bc4aa89f-cc1b-42a8-91ad-17c3101a3dc7" testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" testName="CodedUITestMethod1" computerName="MYCOMPUTER" duration="00:00:26.8663266" startTime="2011-01-13T20:11:16.6250000+02:00" endTime="2011-01-13T20:11:44.7187500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc4aa89f-cc1b-42a8-91ad-17c3101a3dc7">
+      <Output>
+        <DebugTrace>W, 840, 34, 2011/01/13, 20:11:20.953, 494038764262792, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] DoubleClick - "[MSAA]ControlType='ListItem' &amp;&amp; Name='WindowsFormsApplication6.exe'"  &lt; Mouse cursor location (710, 163) &gt;
+\0&lt;/a&gt;
+W, 840, 34, 2011/01/13, 20:11:22.140, 494040750119722, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Form1' &amp;&amp; ClassName=&gt;'WindowsForms10.Window'
+\0
+E, 840, 34, 2011/01/13, 20:11:22.140, 494040750895002, QTAgent32.exe, &lt;a class=failure&gt;Playback - {2} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Form1' &amp;&amp; ClassName=&gt;'WindowsForms10.Window') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 840, 34, 2011/01/13, 20:11:22.296, 494040998681232, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF49DF.png
+\0
+W, 840, 34, 2011/01/13, 20:11:22.296, 494040999409702, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 840, 34, 2011/01/13, 20:11:22.296, 494041001950562, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 1232 ms. Expected it to take maximum 500 ms.
+W, 840, 34, 2011/01/13, 20:11:40.453, 494071258785172, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Form1' &amp;&amp; ClassName=&gt;'WindowsForms10.Window'
+\0
+E, 840, 34, 2011/01/13, 20:11:40.453, 494071259518052, QTAgent32.exe, &lt;a class=failure&gt;Playback - {3} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Form1' &amp;&amp; ClassName=&gt;'WindowsForms10.Window') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 840, 34, 2011/01/13, 20:11:40.593, 494071505694032, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF49E0.png
+\0
+W, 840, 34, 2011/01/13, 20:11:40.593, 494071506425142, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 840, 34, 2011/01/13, 20:11:40.593, 494071507479132, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 18301 ms. Expected it to take maximum 500 ms.
+W, 840, 34, 2011/01/13, 20:11:41.218, 494072542167022, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 840, 34, 2011/01/13, 20:11:42.000, 494073852518382, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 840, 34, 2011/01/13, 20:11:42.765, 494075128362032, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 840, 34, 2011/01/13, 20:11:43.562, 494076432011072, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 840, 34, 2011/01/13, 20:11:44.171, 494077468045412, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Form1' &amp;&amp; ClassName=&gt;'WindowsForms10.Window'
+\0
+E, 840, 34, 2011/01/13, 20:11:44.171, 494077468755252, QTAgent32.exe, &lt;a class=failure&gt;Playback - {4} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Form1' &amp;&amp; ClassName=&gt;'WindowsForms10.Window') (Указанный объект не найден.)
+\0&lt;/a&gt;
+E, 840, 34, 2011/01/13, 20:11:44.328, 494077714261102, QTAgent32.exe, Playback - [IMAGE] C:\Documents and Settings\Alkazar\Local Settings\Temp\UITestLogs\LastRun\RPF49E1.png
+\0
+W, 840, 34, 2011/01/13, 20:11:44.328, 494077715008352, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 840, 34, 2011/01/13, 20:11:44.328, 494077716073762, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 3724 ms. Expected it to take maximum 500 ms.
+E, 840, 34, 2011/01/13, 20:11:44.328, 494077722747212, QTAgent32.exe, Exception: System.Runtime.InteropServices.COMException
+	Message: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+	Stack Trace:    в Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+	BaseExceptionMessage: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+
+E, 840, 34, 2011/01/13, 20:11:44.468, 494077953277392, QTAgent32.exe, AL: Playback Error: Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotFoundException: Дополнительные сведения При воспроизведении не удалось найти элемент управления с указанными свойствами поиска.: 
+TechnologyName:  "MSAA"
+ControlType:  "Window"
+Name:  "Form1"
+ClassName:  "WindowsForms10.Window"
+ ---&gt; System.Runtime.InteropServices.COMException: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL.
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindFromPartialQueryId(String queryId)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor(String queryId)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapControlNotFoundException(COMException ex, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String queryId)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor(String queryId)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.SearchTopLevelWindow(ISearchArgument topLevelSearchArg, String topLevelElementQueryId)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTitleUpdatedTopLevelWindow(ISearchArgument topLevelSearchArg, String queryId, IList`1 windowTitles)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTopLevelElement(Boolean useCache, Boolean useCacheOnly, ISearchArgument searchArg, IList`1 windowTitles, Int32&amp; timeLeft)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetElement(Boolean useCache, ISearchArgument searchArg)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.Search(ISearchArgument searchArg)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindInternal()
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindControlIfNecessary()
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty(String propertyName, Object value)
+W, 840, 34, 2011/01/13, 20:11:44.671, 494078301940732, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 840, 34, 2011/01/13, 20:11:44.671, 494078302298132, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Метод проверки TestProject1.CodedUITest1.CodedUITestMethod1 выдал исключение: Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotFoundException: Дополнительные сведения При воспроизведении не удалось найти элемент управления с указанными свойствами поиска.: 
+TechnologyName:  "MSAA"
+ControlType:  "Window"
+Name:  "Form1"
+ClassName:  "WindowsForms10.Window"
+ ---&gt; System.Runtime.InteropServices.COMException: В результате вызова компонента COM возвращена ошибка в формате HRESULT E_FAIL..</Message>
+          <StackTrace>    в Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+   в Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindFromPartialQueryId(String queryId)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor(String queryId)
+ --- Конец трассировки стека внутреннего исключения ---
+    в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapControlNotFoundException(COMException ex, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException(COMException innerException, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, IPlaybackContext context)
+   в Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException(SystemException exception, String queryId)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor(String queryId)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.SearchTopLevelWindow(ISearchArgument topLevelSearchArg, String topLevelElementQueryId)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTitleUpdatedTopLevelWindow(ISearchArgument topLevelSearchArg, String queryId, IList`1 windowTitles)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTopLevelElement(Boolean useCache, Boolean useCacheOnly, ISearchArgument searchArg, IList`1 windowTitles, Int32&amp; timeLeft)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetElement(Boolean useCache, ISearchArgument searchArg)
+   в Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.Search(ISearchArgument searchArg)
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindInternal()
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindControlIfNecessary()
+   в Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty(String propertyName, Object value)
+   в Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinEdit.set_Text(String value)
+   в TestProject1.UIMap.RecordedMethod1() в C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\TVPP\TestProject1\UIMap.Designer.cs:строка 52
+   в TestProject1.CodedUITest1.CodedUITestMethod1() в C:\Documents and Settings\Alkazar\Мои документы\Visual Studio 2010\Projects\TVPP\TestProject1\CodedUITest1.cs:строка 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="MYCOMPUTER\CodedUITestMethod1.png" />
+      </ResultFiles>
+      <ExtensionResult>Адресат вызова создал исключение.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>
